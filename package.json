@@ -1,0 +1,23 @@
+{
+  "name": "natours-backend",
+  "version": "1.0.0",
+  "description": "for learning backend development",
+  "homepage": "https://github.com/shaan-hossain-01/natours_backend_project#readme",
+  "bugs": {
+    "url": "https://github.com/shaan-hossain-01/natours_backend_project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaan-hossain-01/natours_backend_project.git"
+  },
+  "license": "ISC",
+  "author": "Shaan Hossain",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
