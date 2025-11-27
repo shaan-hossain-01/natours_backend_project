@@ -45,6 +45,23 @@ app.get('/api/v1/tours/:id'
     });
   });
 
+app.patch('/api/v1/tours/:id'
+  , (req, res) => {
+    res.status(200).json({
+      status: 'success',
+      data: {
+        tour: '<Updated tour here...>',
+      },
+    });
+  });
+
+app.delete('/api/v1/tours/:id'
+  , (req, res) => {
+    res.status(200).json({
+      status: 'success',
+      data: null,
+    });
+  });
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
